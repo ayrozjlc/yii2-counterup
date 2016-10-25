@@ -1,0 +1,47 @@
+{
+  "name": "ayrozjlc/yii2-counterup",
+  "description": "AssetBundle for jQuery Counter-Up Plugin https://github.com/NawaraGFX/Counter-Up",
+  "keywords": [
+    "yii2",
+    "counterup",
+    "counter-up",
+    "jquery plugin",
+    "yii2-counterup",
+    "counter",
+    "count",
+    "up",
+    "number",
+    "figure",
+    "yii2 animation",
+    "numeric",
+    "yii2-counter-up"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/ayrozjlc/yii2-counterup"
+  },
+  "authors": [
+    {
+      "name": "Jose Lopez Chavez(ayrozjlc)",
+      "email": "jlopez@tecnocen.com",
+      "homepage": "https://github.com/tecnocen-com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ayrozjlc\\counterup\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "bower-asset/counterup": "*",
+    "yiisoft/yii2": "2.0.*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
