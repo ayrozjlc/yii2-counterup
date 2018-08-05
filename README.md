@@ -1,7 +1,5 @@
 # Yii2 Counter-Up
 
-***
-***
 AssetBundle for jQuery Counter-Up Plugin https://github.com/NawaraGFX/Counter-Up
 
 ## Installation
@@ -38,4 +36,10 @@ public $depends = [
     // ...
     '\ayrozjlc\counterup\CounterUpAsset',
 ];
+```
+
+Add the class "counter" to the number that will be the animation:
+
+```php
+<span class="counter"> 1000 </ span>
 ```

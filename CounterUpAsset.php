@@ -5,13 +5,12 @@ use yii\web\AssetBundle;
 
 class CounterUpAsset extends AssetBundle
 {
-    public $sourcePath = '@bower';
+    public $sourcePath = '@vendor/ayrozjlc/yii2-counterup/js';
     public $js = [
-        'waypoints/lib/jquery.waypoints.min.js',
-        'counterup/jquery.counterup.min.js',
+        'counter_init.js'
     ];
 
     public $depends = [
-        'yii\web\JqueryAsset',
+        'ayrozjlc\counterup\InitAsset'
     ];
 }
