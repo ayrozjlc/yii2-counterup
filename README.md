@@ -38,7 +38,7 @@ public $depends = [
 ];
 ```
 
-Add the class "counter" to the number that will be the animation:
+Add the class "counter" to the number that will be given the animation:
 
 ```php
 <span class="counter"> 1000 </ span>
