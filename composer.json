@@ -38,6 +38,7 @@
   "minimum-stability": "dev",
   "require": {
     "bower-asset/counterup": "*",
+    "bower-asset/waypoints": "*",
     "yiisoft/yii2": "2.0.*"
   },
   "extra": {
